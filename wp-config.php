@@ -24,14 +24,17 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
  */
 
 // ** Database settings - You can get this info from your web host ** //
+define('FS_METHOD', 'direct');
+
+// ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'clubart_wp63' );
+define( 'DB_NAME', 'demoeduma_db' );
 
 /** Database username */
-define( 'DB_USER', 'clubart_wp63' );
+define( 'DB_USER', 'demoeduma_db' );
 
 /** Database password */
-define( 'DB_PASSWORD', '4MNV)@51pS' );
+define( 'DB_PASSWORD', 'tuan@140902' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -41,6 +44,7 @@ define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
 
 /**#@+
  * Authentication unique keys and salts.
